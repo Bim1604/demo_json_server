@@ -1,0 +1,259 @@
+{
+  "categories": [
+    {
+      "id": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "name": "Awesome Frozen Soap",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427
+    },
+    {
+      "id": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "name": "Refined Rubber Computer",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427
+    },
+    {
+      "id": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "name": "Awesome Soft Salad",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427
+    },
+    {
+      "id": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "name": "Handmade Cotton Bike",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427
+    }
+  ],
+  "products": [
+    {
+      "categoryID": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "id": "f3b8138f-0c25-48e0-8d1f-aba1e339508c",
+      "name": "Rustic Cotton Shirt",
+      "color": "violet",
+      "price": "237.00",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "id": "cc02e75d-6c52-421d-9a17-96daf909717d",
+      "name": "Gorgeous Steel Computer",
+      "color": "violet",
+      "price": "810.00",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "id": "0ad23735-142c-46eb-b8f8-0d87666e9fd4",
+      "name": "Small Frozen Table",
+      "color": "red",
+      "price": "396.00",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "id": "95bf16c0-bc77-4419-947c-8598e8fb4a39",
+      "name": "Tasty Frozen Chicken",
+      "color": "orange",
+      "price": "170.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1629348657427,
+      "updateAt": 1629348657427,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "b47ec8e7-0d58-4c13-b840-8aa4f06fcb3f",
+      "id": "8e3f3221-3497-4213-8b55-9d19c5edd51d",
+      "name": "New Laptop",
+      "color": "orchid",
+      "price": "975.00",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createAt": 1629348657427,
+      "updateAt": 1629484331630,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "id": "0e53bb67-a08f-4184-a326-ddf6a1cd9587",
+      "name": "Licensed Metal Keyboard",
+      "color": "cyan",
+      "price": "217.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "id": "f98135fb-7397-4702-8e0b-c8a789618402",
+      "name": "Handmade Plastic Bike",
+      "color": "ivory",
+      "price": "340.00",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "id": "57f90a1e-a8ae-46f4-be3e-ea2360680fb0",
+      "name": "Handmade Steel Chicken",
+      "color": "orchid",
+      "price": "555.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "id": "b4e7d490-fc60-421b-a894-949f976473ae",
+      "name": "Practical Frozen Hat",
+      "color": "pink",
+      "price": "292.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2ebcd361-5fe2-45f9-baf8-ef6399ef2d54",
+      "id": "b2a68de1-77f9-4e75-8eb4-da226a57b9c0",
+      "name": "Awesome Cotton Pants",
+      "color": "green",
+      "price": "756.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "id": "0cc15a75-770f-483e-b1ef-c841dafb33de",
+      "name": "Sleek Frozen Shoes",
+      "color": "orange",
+      "price": "703.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "id": "3ff4ecf5-547c-4b00-9b3c-b821458e2feb",
+      "name": "Unbranded Steel Pizza",
+      "color": "fuchsia",
+      "price": "302.00",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "id": "68049d6e-e210-4c03-8861-170f2fae4d31",
+      "name": "Refined Steel Car",
+      "color": "lime",
+      "price": "945.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "id": "366c9280-bcf3-48a6-8a02-8753d386080a",
+      "name": "Incredible Wooden Bacon",
+      "color": "teal",
+      "price": "330.00",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "6a0832db-278a-42aa-ace0-5e9ff6f95d3a",
+      "id": "8262be2e-edc0-4902-913a-051c6f5b9bed",
+      "name": "Generic Plastic Towels",
+      "color": "violet",
+      "price": "743.00",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "id": "4da549cc-6510-4d36-9208-4a99e3ac8414",
+      "name": "Intelligent Frozen Soap",
+      "color": "plum",
+      "price": "107.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "id": "bc7e8560-7831-4778-b960-427a7ab08637",
+      "name": "Handmade Metal Shirt",
+      "color": "silver",
+      "price": "776.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "id": "c9f6b6b2-573a-4245-ac4d-e358baef51b6",
+      "name": "Intelligent Plastic Hat",
+      "color": "sky blue",
+      "price": "542.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "id": "d68fc994-b61d-4010-99de-80b0266a99b3",
+      "name": "Unbranded Wooden Sausages",
+      "color": "lime",
+      "price": "56.00",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryID": "2e528d8d-755a-41be-abe9-b29e87cbf941",
+      "id": "83d57696-cbb0-43e5-9cc9-e9b7a05d1f15",
+      "name": "Generic Metal Chair",
+      "color": "fuchsia",
+      "price": "65.00",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1629348657428,
+      "updateAt": 1629348657428,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "name": "Laptop",
+      "createdAt": 1629484296751,
+      "updateAt": 1629484296751,
+      "id": "UFu6c1R"
+    }
+  ],
+  "profile": {
+    "name": "po"
+  }
+}

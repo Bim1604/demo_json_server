@@ -1,0 +1,64 @@
+@baseUrl=http://localhost:3000/api
+@resourceName=products
+# products
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name filterProducts
+
+GET {{baseUrl}}/{{resourceName}}?color=violet&price_gte=800
+
+###
+
+# @name filterProducts
+
+GET {{baseUrl}}/{{resourceName}}?name_like=Handmade
+
+###
+
+# @name pagination
+
+GET  {{baseUrl}}/{{resourceName}}?_page=1&_limit=5
+
+###
+
+# @name soft
+
+Get {{baseUrl}}/{{resourceName}}?_sort=price&_order=desc
+
+###
+
+
+
+###
+
+# @name addNew
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Laptop"
+}
+
+###
+
+# @name update
+PATCH  {{baseUrl}}/{{resourceName}}/8e3f3221-3497-4213-8b55-9d19c5edd51d
+Content-Type: application/json
+
+{
+    "name": "New Laptop"
+}
+
+###
+
+# @name remove
+DELETE  {{baseUrl}}/{{resourceName}}/2
+Content-Type: application/json
+
+
+
+
