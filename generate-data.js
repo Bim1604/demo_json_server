@@ -3,15 +3,6 @@ const fs = require('fs')
 // Set local to use Vietnamese
 faker.locale ="vi"
 
-// Random data
-// console.log(faker.commerce.department());
-// console.log(faker.commerce.productName());
-// console.log(faker.commerce.productMaterial());
-// console.log(faker.commerce.productDescription());
-
-// console.log(faker.datatype.uuid());
-// console.log(faker.image.imageUrl());
-// console.log(faker.name.findName());
 const randomCategoryList = (n) => {
     if (n <= 0) return [];
     const categoryList = []
