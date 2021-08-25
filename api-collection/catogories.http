@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3000/api
+@baseUrl=https://ez-json-demo.herokuapp.com/api
 # Categories
 
 # @name getAllCategories
@@ -11,7 +11,7 @@ POST {{baseUrl}}/categories
 Content-Type: application/json
 
 {
-    "name": "Laptop"
+    "name": "Laptop2"
 }
 
 ###

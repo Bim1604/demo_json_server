@@ -1,5 +1,5 @@
-@baseUrl=http://localhost:3000/api
-@resourceName=products
+@baseUrl=https://ez-json-demo.herokuapp.com/api
+@resourceName=product
 # products
 
 # @name getAll
@@ -15,7 +15,7 @@ GET {{baseUrl}}/{{resourceName}}?color=violet&price_gte=800
 
 # @name filterProducts
 
-GET {{baseUrl}}/{{resourceName}}?name_like=Handmade
+GET {{baseUrl}}/{{resourceName}}?name_like=in
 
 ###
 

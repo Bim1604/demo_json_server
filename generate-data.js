@@ -55,8 +55,9 @@ const randomProductList = (categoryList, numberOfProducts) => {
     const db = {
         categories: categoryList,
         product: productList,
-        profile: {
-            name: "po"
+        users: {
+            username: "admin",
+            password: "123123"
         },
     };
 
