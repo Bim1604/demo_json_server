@@ -57,6 +57,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
     product: productList,
     users: [
       {
+        id: 1,
         username: "admin",
         password: "123123",
       },
