@@ -60,6 +60,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         id: 1,
         username: "admin",
         password: "123123",
+        fullName: "admin",
       },
     ],
   };
