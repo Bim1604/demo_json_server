@@ -63,6 +63,32 @@ const randomProductList = (categoryList, numberOfProducts) => {
         fullName: "admin",
       },
     ],
+    history: [
+      {
+        id: 1,
+        city: 'Quan 9',
+        address: '36 Le van viet, Quan 9, Thanh Pho Ho Chi Minh',
+        searchValue: 'Quan 9',
+      },
+      {
+        id: 2,
+        city: 'Quan 12',
+        address: '12 Quang Trung, Quan 12, Thanh Pho Ho Chi Minh',
+        searchValue: 'Quan 12',
+      },
+      {
+        id: 3,
+        city: 'Quan 9',
+        address: '245 Man Thien, Quan 9, Thanh Pho Ho Chi Minh',
+        searchValue: 'Man Thien',
+      },
+      {
+        id: 4,
+        city: 'Quan 9',
+        address: '10 Nguyen Xien, Quan 9, Thanh Pho Ho Chi Minh',
+        searchValue: 'Nguyen Xien',
+      }
+    ],
   };
 
   // write db object to db.json
