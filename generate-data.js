@@ -66,28 +66,28 @@ const randomProductList = (categoryList, numberOfProducts) => {
     history: [
       {
         id: 1,
-        city: 'Quan 9',
-        address: '36 Le van viet, Quan 9, Thanh Pho Ho Chi Minh',
-        searchValue: 'Quan 9',
+        city: '605 Lê Văn Việt',
+        address: 'Tân Phú, Thủ Đức, Hồ Chí Minh',
+        searchValue: '605 Lê Văn Việt',
+        latitude: 10.849204613,
+        longitude: 106.809063143,
       },
       {
         id: 2,
-        city: 'Quan 12',
-        address: '12 Quang Trung, Quan 12, Thanh Pho Ho Chi Minh',
-        searchValue: 'Quan 12',
+        city: 'Bệnh viện quận 10',
+        address: '571 Sư Vạn Hạnh, Phường 13, Quận 10, Hồ Chí Minh',
+        searchValue: 'Bệnh viện quận 10',
+        latitude: 10.776170924,
+        longitude: 106.666653019,
       },
       {
         id: 3,
-        city: 'Quan 9',
-        address: '245 Man Thien, Quan 9, Thanh Pho Ho Chi Minh',
-        searchValue: 'Man Thien',
+        city: 'Binh Duong International General Hospital',
+        address: 'Lái Thiêu, Thuận An, Bình Dương',
+        searchValue: 'Binh Duong',
+        latitude: 10.9042557380001,
+        longitude: 106.710889879,
       },
-      {
-        id: 4,
-        city: 'Quan 9',
-        address: '10 Nguyen Xien, Quan 9, Thanh Pho Ho Chi Minh',
-        searchValue: 'Nguyen Xien',
-      }
     ],
   };
 
