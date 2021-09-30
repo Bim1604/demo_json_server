@@ -89,6 +89,14 @@ const randomProductList = (categoryList, numberOfProducts) => {
         longitude: 106.710889879,
       },
     ],
+    requestCustomer: [
+      {
+        id: 1,
+        description: "",
+        star: 5,
+        user: "user",
+      }
+    ]
   };
 
   // write db object to db.json
