@@ -95,6 +95,14 @@ const randomProductList = (categoryList, numberOfProducts) => {
         description: "",
         star: 5,
         user: "user",
+      },
+    ],
+    user: [
+      {
+        id: 1,
+        fullName: "Trần Đại Đăng",
+        phone: "0364909656",
+        password: "123",
       }
     ]
   };
