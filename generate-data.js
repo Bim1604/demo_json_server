@@ -1,11 +1,11 @@
-const faker = require("faker");
-const fs = require("fs");
+const faker = require('faker')
+const fs = require('fs')
 // Set local to use Vietnamese
-faker.locale = "vi";
+faker.locale = 'vi'
 
 const randomCategoryList = (n) => {
-  if (n <= 0) return [];
-  const categoryList = [];
+  if (n <= 0) return []
+  const categoryList = []
 
   //  loop and pust category
   Array.from(new Array(n)).forEach(() => {
@@ -14,16 +14,16 @@ const randomCategoryList = (n) => {
       name: faker.commerce.productName(),
       createAt: Date.now(),
       updateAt: Date.now(),
-    };
+    }
 
-    categoryList.push(category);
-  });
-  return categoryList;
-};
+    categoryList.push(category)
+  })
+  return categoryList
+}
 
 const randomProductList = (categoryList, numberOfProducts) => {
-  if (numberOfProducts <= 0) return [];
-  const productList = [];
+  if (numberOfProducts <= 0) return []
+  const productList = []
 
   // random data
   for (const category of categoryList) {
@@ -38,19 +38,19 @@ const randomProductList = (categoryList, numberOfProducts) => {
         createAt: Date.now(),
         updateAt: Date.now(),
         thumbnailUrl: faker.image.imageUrl(400, 400),
-      };
+      }
 
-      productList.push(product);
-    });
+      productList.push(product)
+    })
   }
-  return productList;
-};
+  return productList
+}
 
 // IFFE
-(() => {
+;(() => {
   //  random data
-  const categoryList = randomCategoryList(4);
-  const productList = randomProductList(categoryList, 5);
+  const categoryList = randomCategoryList(4)
+  const productList = randomProductList(categoryList, 5)
   // prepare db object
   const db = {
     categories: categoryList,
@@ -58,9 +58,9 @@ const randomProductList = (categoryList, numberOfProducts) => {
     users: [
       {
         id: 1,
-        username: "admin",
-        password: "123123",
-        fullName: "admin",
+        username: 'admin',
+        password: '123123',
+        fullName: 'admin',
       },
     ],
     history: [
@@ -92,23 +92,105 @@ const randomProductList = (categoryList, numberOfProducts) => {
     requestCustomer: [
       {
         id: 1,
-        description: "",
+        description: '',
         star: 5,
-        user: "user",
+        user: 'user',
       },
     ],
     user: [
       {
         id: 1,
-        fullName: "Trần Đại Đăng",
-        phone: "0364909656",
-        password: "123",
-      }
-    ]
-  };
+        fullName: 'Trần Đại Đăng',
+        gender: 'Nam',
+        DOB: '16/04/2000',
+        phone: '0364909656',
+        password: '123',
+      },
+    ],
+    vehicle: [
+      {
+        id: 1,
+        cate: 'Xe máy',
+        name: 'Subaru Impreza WRX STI RA Spec-C',
+        number: '73B.263162',
+        color: 'Trắng',
+      },
+      {
+        id: 2,
+        cate: 'Ô tô',
+        name: 'Toyota Vios',
+        number: '73B.283342',
+        color: 'Trắng',
+      },
+    ],
+    historyCustomer: [
+      {
+        id: 1,
+        name: 'Hoàng Quốc Khánh',
+        phone: '0364909656',
+        address: '132 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
+        detailsFix: [
+          {
+            fix: 'Bể bánh xe',
+            unitPrice: 80000,
+          },
+        ],
+        time: '15:16:58 30-10-2021',
+        price: 80000,
+        status: true,
+        motor: 'Xe honda tay ga SH 2021',
+        car: '',
+        description: 'Bể bánh xe sau',
+        reasonCancel: '',
+        image: [
+          {
+            link:
+              'https://cdn.xehoiviet.com/images/car/cropthumb/1200x752/2020/08/13/0939636611/cam-do-thanh-ly-sh-da-ga-qua-khong-noi-2l4ggdkk7h4.jpg',
+          },
+          {
+            link:
+              'https://muaxegiatot.vn/wp-content/uploads/2019/11/can-truoc-honda-sh-2020-muaxegiatot-vn.jpg',
+          },
+          {
+            link:
+              'https://giaxe.2banh.vn/cache/dataupload/products/slides/520_368_66f9e0b774b551ea584e560c347f61a6.jpg',
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: 'Nguyễn Hoàng Vi',
+        phone: '0852573133',
+        address: '352 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
+        detailsFix: [
+          {
+            fix: 'Bể bánh xe',
+            unitPrice: 300000,
+          },
+        ],
+        time: '18:19:58 30-10-2021',
+        price: 300000,
+        status: false,
+        motor: '',
+        car: 'Toyota Fortuner 2021',
+        description: '',
+        reasonCancel: 'Thợ bị công an bắt',
+        image: [
+          {
+            link:
+              'https://img1.oto.com.vn/crop/230x172/2021/10/26/20211026145928-0d7f_wm.jpg',
+          },
+          {
+            link:
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwBBj-Oj09iO9U1rkzwv3Fe9C3z3NxzRT8A&usqp=CAU',
+          },
+        ],
+      },
+    ],
+  }
 
   // write db object to db.json
-  fs.writeFile("db.json", JSON.stringify(db), () => {
-    console.log("Generate data successfully =))");
-  });
-})();
+  fs.writeFile('db.json', JSON.stringify(db), () => {
+    console.log('Generate data successfully =))')
+  })
+})()
