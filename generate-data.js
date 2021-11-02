@@ -101,6 +101,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
       {
         id: 1,
         fullName: 'Trần Đại Đăng',
+        avatar:
+          'https://scontent.fsgn2-5.fna.fbcdn.net/v/t31.18172-8/26685354_1945336242460292_7151551022183058927_o.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=hJf4qGXVbS4AX8dJmLH&_nc_ht=scontent.fsgn2-5.fna&oh=c9cc310e5beb2694dfafac2de75c2057&oe=61A52F70',
         gender: 'Nam',
         DOB: '16/04/2000',
         phone: '0364909656',
