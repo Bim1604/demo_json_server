@@ -127,6 +127,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
       {
         id: 1,
         name: 'Hoàng Quốc Khánh',
+        avatar:
+          'https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.6435-9/120706406_691578961460418_6923178654692172363_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SO6c6MX-laQAX_3WDGO&tn=ygiqbK0P1lV46Qek&_nc_ht=scontent.fsgn2-4.fna&oh=91c1ac6fcff0f5a5ecfdaba7c17b29b2&oe=61A827D8',
         phone: '0364909656',
         address: '132 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
         detailsFix: [
@@ -160,6 +162,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
       {
         id: 2,
         name: 'Nguyễn Hoàng Vi',
+        avatar:
+          'https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.6435-9/52005995_2228330520827528_8330242173291200512_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Oi_FAQQ5CRsAX_P_7na&_nc_ht=scontent.fsgn2-2.fna&oh=7163fdb04830fa6e07bb3eac088e7a18&oe=61A88F88',
         phone: '0852573133',
         address: '352 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
         detailsFix: [
