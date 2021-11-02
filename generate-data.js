@@ -116,6 +116,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         name: 'Subaru Impreza WRX STI RA Spec-C',
         number: '73B.263162',
         color: 'Trắng',
+        phone: "0364909656",
       },
       {
         id: 2,
@@ -123,6 +124,15 @@ const randomProductList = (categoryList, numberOfProducts) => {
         name: 'Toyota Vios',
         number: '73B.283342',
         color: 'Trắng',
+        phone: "0364909656",
+      },
+      {
+        id: 3,
+        cate: 'Ô tô',
+        name: 'Toyota Vios 2021',
+        number: '73B.280442',
+        color: 'Trắng',
+        phone: "0852573133",
       },
     ],
     historyCustomer: [
