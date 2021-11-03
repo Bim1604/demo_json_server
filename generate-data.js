@@ -108,6 +108,20 @@ const randomProductList = (categoryList, numberOfProducts) => {
         userID: 2,
       },
     ],
+    customerRequest: [
+      {
+        id: 1,
+        fullName: 'Trần Đại Đăng',
+        avatar:
+          'https://scontent.fsgn2-5.fna.fbcdn.net/v/t31.18172-8/26685354_1945336242460292_7151551022183058927_o.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=hJf4qGXVbS4AX8dJmLH&_nc_ht=scontent.fsgn2-5.fna&oh=c9cc310e5beb2694dfafac2de75c2057&oe=61A52F70',
+        phone: '0364909656',
+        address: '231 Lê Văn Việt Quận 9, Thành phố Hồ Chí Minh',
+        distance: '5km',
+        cate: 'Xe máy',
+        vehicleName: 'Subaru Impreza WRX STI RA Spec-C',
+        userID: 1,
+      },
+    ],
     user: [
       {
         id: 1,
