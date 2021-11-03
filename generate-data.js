@@ -97,6 +97,17 @@ const randomProductList = (categoryList, numberOfProducts) => {
         user: 'user',
       },
     ],
+    mechanicAccept: [
+      {
+        id: 1,
+        fullName: 'Trần Đại Đen',
+        avatar:
+          'https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.6435-9/52005995_2228330520827528_8330242173291200512_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Oi_FAQQ5CRsAX_P_7na&_nc_ht=scontent.fsgn2-2.fna&oh=7163fdb04830fa6e07bb3eac088e7a18&oe=61A88F88',
+        phone: '0852573133',
+        address: '352 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
+        userID: 2,
+      },
+    ],
     user: [
       {
         id: 1,
