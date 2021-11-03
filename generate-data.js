@@ -168,6 +168,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         car: '',
         description: 'Bể bánh xe sau',
         reasonCancel: '',
+        cusID: 1,
         image: [
           {
             link:
@@ -196,6 +197,39 @@ const randomProductList = (categoryList, numberOfProducts) => {
             unitPrice: 300000,
           },
         ],
+        cusID: 1,
+        time: '18:19:58 30-10-2021',
+        price: 300000,
+        status: false,
+        motor: '',
+        car: 'Toyota Fortuner 2021',
+        description: '',
+        reasonCancel: 'Thợ bị công an bắt',
+        image: [
+          {
+            link:
+              'https://img1.oto.com.vn/crop/230x172/2021/10/26/20211026145928-0d7f_wm.jpg',
+          },
+          {
+            link:
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwBBj-Oj09iO9U1rkzwv3Fe9C3z3NxzRT8A&usqp=CAU',
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: 'Nguyễn Hoàng Vi Diệu',
+        avatar:
+          'https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.6435-9/52005995_2228330520827528_8330242173291200512_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Oi_FAQQ5CRsAX_P_7na&_nc_ht=scontent.fsgn2-2.fna&oh=7163fdb04830fa6e07bb3eac088e7a18&oe=61A88F88',
+        phone: '0852573133',
+        address: '352 Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh',
+        detailsFix: [
+          {
+            fix: 'Bể bánh xe',
+            unitPrice: 300000,
+          },
+        ],
+        cusID: 2,
         time: '18:19:58 30-10-2021',
         price: 300000,
         status: false,
