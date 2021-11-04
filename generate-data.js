@@ -120,6 +120,26 @@ const randomProductList = (categoryList, numberOfProducts) => {
         cate: 'Xe máy',
         vehicleName: 'Subaru Impreza WRX STI RA Spec-C',
         userID: 1,
+        detailsFix: [
+          {
+            text: 'Bể bánh xe',
+          },
+        ],
+        description: 'Bể bánh xe sau',
+        image: [
+          {
+            text:
+              'https://cdn.xehoiviet.com/images/car/cropthumb/1200x752/2020/08/13/0939636611/cam-do-thanh-ly-sh-da-ga-qua-khong-noi-2l4ggdkk7h4.jpg',
+          },
+          {
+            text:
+              'https://muaxegiatot.vn/wp-content/uploads/2019/11/can-truoc-honda-sh-2020-muaxegiatot-vn.jpg',
+          },
+          {
+            text:
+              'https://giaxe.2banh.vn/cache/dataupload/products/slides/520_368_66f9e0b774b551ea584e560c347f61a6.jpg',
+          },
+        ],
       },
     ],
     user: [
@@ -132,7 +152,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         DOB: '16/04/2000',
         phone: '0364909656',
         password: '123',
-        role: "cus",
+        role: 'cus',
       },
       {
         id: 2,
@@ -143,7 +163,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         DOB: '16/04/2000',
         phone: '0852573133',
         password: '123',
-        role: "mec",
+        role: 'mec',
       },
       {
         id: 3,
@@ -154,7 +174,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         DOB: '16/04/2000',
         phone: '0852573132',
         password: '123',
-        role: "cus",
+        role: 'cus',
       },
     ],
     vehicle: [
