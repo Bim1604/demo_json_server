@@ -227,15 +227,15 @@ const randomProductList = (categoryList, numberOfProducts) => {
         mecID: 2,
         image: [
           {
-            link:
+            text:
               'https://cdn.xehoiviet.com/images/car/cropthumb/1200x752/2020/08/13/0939636611/cam-do-thanh-ly-sh-da-ga-qua-khong-noi-2l4ggdkk7h4.jpg',
           },
           {
-            link:
+            text:
               'https://muaxegiatot.vn/wp-content/uploads/2019/11/can-truoc-honda-sh-2020-muaxegiatot-vn.jpg',
           },
           {
-            link:
+            text:
               'https://giaxe.2banh.vn/cache/dataupload/products/slides/520_368_66f9e0b774b551ea584e560c347f61a6.jpg',
           },
         ],
@@ -263,11 +263,11 @@ const randomProductList = (categoryList, numberOfProducts) => {
         reasonCancel: 'Thợ bị công an bắt',
         image: [
           {
-            link:
+            text:
               'https://img1.oto.com.vn/crop/230x172/2021/10/26/20211026145928-0d7f_wm.jpg',
           },
           {
-            link:
+            text:
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwBBj-Oj09iO9U1rkzwv3Fe9C3z3NxzRT8A&usqp=CAU',
           },
         ],
